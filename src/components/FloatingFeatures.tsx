@@ -89,6 +89,7 @@ const FloatingFeatures = () => {
           </p>
         </div>
       </div>
+      
     </div>
   );
 };
