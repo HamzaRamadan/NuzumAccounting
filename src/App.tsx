@@ -2,6 +2,7 @@ import './App.css'
 import About from './components/About'
 import FloatingFeatures from './components/FloatingFeatures'
 import Home from './components/Home'
+import WhoAre from './components/WhoAre'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
      <Home />
      <FloatingFeatures/>
      <About />
+     <WhoAre />
       
     </>
   )

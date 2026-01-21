@@ -1,14 +1,13 @@
-// tailwind.config.js
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}"
+    "./src/**/*.{js,ts,jsx,tsx}", // كل ملفات المشروع
   ],
   theme: {
     extend: {
       fontFamily: {
-        Almarai: ['Almarai', 'sans-serif'],
+        sans: ['Almarai', 'sans-serif'], // الخط الأساسي
       },
     },
   },

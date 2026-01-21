@@ -14,7 +14,7 @@ const Home = () => {
         dir="ltr"
         className="
           relative z-10
-          flex flex-col items-center gap-6 mt-6
+          flex flex-col items-center gap-6 mt-2
           lg:flex-row lg:items-center lg:gap-[170px]
         "
       >
@@ -81,47 +81,51 @@ const Home = () => {
       <div className="absolute inset-0 bg-[#00000080]"></div>
 
       {/* Content */}
-      <div
-        className="
-          relative z-10
-          flex justify-center items-start
-          mt-6
-          lg:mt-0 lg:h-full lg:justify-start
-        "
-      >
-        <div
-           className="
-             bg-[#1F2425] 
-             rounded-tl-[60px]
-             w-[580px] h-[600px]
-             flex flex-col justify-start
-             text-right text-white
-             p-12
-           "
-         >
-          <h1 className="font-Almarai font-bold text-[22px] lg:text-[28px] mb-4 lg:mb-6">
-            تعاني من مشاكل في الإدارة المالية؟
-          </h1>
+     <div
+  className="
+    relative z-10
+    flex items-start mt-6
+    justify-start             // الافتراضي للاب والفون
+    sm:justify-start          // فون صغير
+    md:justify-start            // تابليت: من 600px ل1024px على اليمين
+    lg:mt-0 lg:h-full lg:justify-start  // اللاب
+  "
+>
+  <div
+    className="
+      bg-[#1F2425] 
+      rounded-tl-[60px]
+      w-[580px] h-[600px]
+      flex flex-col justify-start
+      text-right text-white
+      p-12
+      max-md:w-[90%] max-md:h-[500px]  // تصغير شويه على فون وتابلت
+      max-md:p-6
+    "
+  >
+    <h1 className="font-Almarai font-bold text-[19px] lg:text-[28px] mb-4 lg:mb-6">
+      تعاني من مشاكل في الإدارة المالية؟
+    </h1>
 
-          <h1 className="font-Almarai font-extrabold text-[26px] lg:text-[35px] leading-[40px] lg:leading-[58px]">
-            ريح بالك من إدارة حسابات شركتك
-            <br />
-            <span className="relative inline-block">
-              مع ربح
-              <span className="absolute right-0 top-0 w-[200px] lg:w-[291px] border-t-[16px] lg:border-t-[20px] border-[#2C7EF3]"></span>
-            </span>
-          </h1>
+    <h1 className="font-Almarai font-extrabold text-[22px] lg:text-[35px] leading-[40px] lg:leading-[58px]">
+      ريح بالك من إدارة حسابات شركتك
+      <br />
+      <span className="relative inline-block">
+        مع ربح
+        <span className="absolute right-0 top-0 w-[180px] lg:w-[200px] border-t-[16px] lg:border-t-[20px] border-[#2C7EF3]"></span>
+      </span>
+    </h1>
 
-          <p className="font-Almarai text-[16px] lg:text-[20px] leading-[28px] lg:leading-[35px] text-[#B5C4E8] mt-4">
-            نوفر لك جميع الخدمات المحاسبية عن بُعد، من إعداد التقارير المالية
-            ومتابعة الضرائب وتحليل الأداء المالي وجميع الخدمات الأخرى.
-          </p>
+    <p className="font-Almarai text-[16px] lg:text-[20px] leading-[28px] lg:leading-[35px] text-[#B5C4E8] mt-4">
+      نوفر لك جميع الخدمات المحاسبية عن بُعد، من إعداد التقارير المالية
+      ومتابعة الضرائب وتحليل الأداء المالي وجميع الخدمات الأخرى.
+    </p>
 
-          <button className="bg-[#2F80ED] hover:bg-blue-600 transition px-7 py-3.5 rounded-full text-sm w-fit mt-8 lg:mt-10">
-            احجز استشارة مجانية الآن
-          </button>
-        </div>
-      </div>
+    <button className="bg-[#2C7EF3] hover:bg-[#2563C3] transition px-7 py-3.5 rounded-full text-sm w-fit mt-16 lg:mt-10 ">
+      احجز استشارة مجانية الآن
+    </button>
+  </div>
+</div>
 
      
     </section>
