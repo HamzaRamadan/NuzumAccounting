@@ -1,5 +1,6 @@
 import './App.css'
 import About from './components/About'
+import AdditionalServices from './components/AdditionalServices'
 import FloatingFeatures from './components/FloatingFeatures'
 import Home from './components/Home'
 import PricingSection from './components/Price'
@@ -14,6 +15,7 @@ function App() {
      <About />
      <WhoAre />
      <PricingSection />
+     <AdditionalServices />
       
     </>
   )
