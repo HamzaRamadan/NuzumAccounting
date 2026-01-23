@@ -1,7 +1,7 @@
 import './App.css'
 import About from './components/About'
 import AdditionalServices from './components/AdditionalServices'
-// import Contact from './components/Contact'
+import Contact from './components/Contact'
 import FloatingFeatures from './components/FloatingFeatures'
 import Footer from './components/Footer'
 import Home from './components/Home'
@@ -29,7 +29,7 @@ function App() {
 
      <Reviews />
      </div>
-     {/* <Contact /> */}
+     <Contact />
      <Footer />
     </>
   )

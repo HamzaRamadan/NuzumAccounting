@@ -11,7 +11,7 @@ const Footer = () => {
           {/* Logo */}
           <div className="mb-4 md:mb-6 lg:mb-7">
             <img 
-              src="/images/img_rectangle_44.png" 
+              src="/logo.png" 
               alt="Company Logo" 
               className="w-[120px] h-[115px] sm:w-[135px] sm:h-[129px] md:w-[150px] md:h-[144px] object-contain"
             />
@@ -23,7 +23,7 @@ const Footer = () => {
               className="text-sm md:text-base lg:text-lg font-bold leading-5 md:leading-6 lg:leading-[21px] opacity-50"
               style={{
                 fontFamily: 'Almarai',
-                color: '#ffffff82',
+                color: '#fff',
                 fontSize: '16px',
                 
               }}
@@ -39,7 +39,7 @@ const Footer = () => {
               className="text-sm md:text-base lg:text-lg font-bold leading-5 md:leading-6 lg:leading-[21px] hover:opacity-80 transition-opacity duration-200 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50 rounded px-2 py-1"
               style={{
                 fontFamily: 'Almarai',
-                color: '#9b949d',
+                color: '#fff',
                 fontSize: '16px',
                 
               }}

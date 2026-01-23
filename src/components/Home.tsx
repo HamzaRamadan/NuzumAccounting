@@ -6,7 +6,7 @@ const Home = () => {
       dir="rtl"
       className="relative w-full h-[90vh] bg-cover bg-[50%_40%] bg-no-repeat overflow-hidden"
       style={{
-        backgroundImage: "url('/src/assets/images/home.jpg')",
+        backgroundImage: "url('/home.jpg')",
       }}
     >
       {/* Top Row */}
@@ -20,7 +20,7 @@ const Home = () => {
       >
         {/* Logo */}
         <img
-          src="/src/assets/images/logo.png"
+          src="/logo.png"
           alt="Accounting Logo"
           className="
             w-24 h-24 object-contain
