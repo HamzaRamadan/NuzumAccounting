@@ -1,10 +1,16 @@
 import './App.css'
 import About from './components/About'
 import AdditionalServices from './components/AdditionalServices'
+import Contact from './components/Contact'
 import FloatingFeatures from './components/FloatingFeatures'
+import Footer from './components/Footer'
 import Home from './components/Home'
+import Partners from './components/Partners'
 import PricingSection from './components/Price'
+import Reviews from './components/Reviews'
+import Testimonials from './components/Testimonials'
 import WhoAre from './components/WhoAre'
+import WhyChoose from './components/WhyChoose'
 
 function App() {
 
@@ -16,7 +22,15 @@ function App() {
      <WhoAre />
      <PricingSection />
      <AdditionalServices />
-      
+     <Partners />
+     <WhyChoose />
+     <Testimonials />
+     <div className="mt-0 lg:-mt-60 ">
+
+     <Reviews />
+     </div>
+     <Contact />
+     <Footer />
     </>
   )
 }

@@ -40,7 +40,7 @@ const PricingSection = () => {
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header Section */}
      <div
-  className="bg-[#ffded44c] rounded-tl-[180px] sm:rounded-tl-[260px] md:rounded-tl-[300px] lg:rounded-tl-[336px] pt-10 sm:pt-14 md:pt-18 lg:pt-[82px] pb-14 sm:pb-20 md:pb-28 lg:pb-[120px] px-4 sm:px-6 md:px-10 lg:px-[80px] mb-8 sm:mb-12 md:mb-16 lg:mb-20 translate-x-0 sm:translate-x-4 md:translate-x-8 lg:translate-x-16" >
+  className="bg-[#FFDED44D] rounded-tl-[180px] sm:rounded-tl-[260px] md:rounded-tl-[300px] lg:rounded-tl-[336px] pt-10 sm:pt-14 md:pt-18 lg:pt-[82px] pb-14 sm:pb-20 md:pb-28 lg:pb-[120px] px-4 sm:px-6 md:px-10 lg:px-[80px] mb-8 sm:mb-12 md:mb-16 lg:mb-20 translate-x-0 sm:translate-x-4 md:translate-x-8 lg:translate-x-16" >
   {/* Main Title */}
   <h2 className=" text-[#331B3B] font-almarai font-bold text-[26px] sm:text-[32px] md:text-[36px] lg:text-[40px] leading-[140%] tracking-[-0.01em] text-right ">
     <span className="relative inline-block">
@@ -74,7 +74,7 @@ const PricingSection = () => {
               className="bg-white shadow-2xl z-10 rounded-[24px] p-3 sm:p-4 md:p-5 flex flex-col h-full"
             >
               <div className="relative w-[260px] h-[120px] mx-auto">
-                <div className="w-full h-full bg-[#4F6EF7] text-white flex items-center justify-center text-[22px] font-bold rounded-tl-[16px] rounded-tr-[16px] [clip-path:polygon(0_0,100%_0,100%_100%,0_70%)] ">
+                <div className="w-full h-full bg-[#5078FF] text-white flex items-center justify-center text-[22px] font-bold rounded-tl-[16px] rounded-tr-[16px] [clip-path:polygon(0_0,100%_0,100%_100%,0_70%)] ">
                   {plan?.title}
                 </div>
               </div>
