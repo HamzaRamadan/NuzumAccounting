@@ -117,16 +117,17 @@ const AdditionalServices = () => {
               className="bg-white shadow-2xl z-10 rounded-[24px] p-3 sm:p-4 md:p-5 flex flex-col h-full"
             >
               <div className="relative w-[260px] h-[120px] mx-auto">
-                <div className="w-full h-full bg-[#5078FF] text-white flex items-center justify-center text-[22px] font-bold rounded-tl-[16px] rounded-tr-[16px] [clip-path:polygon(0_0,100%_0,100%_100%,0_70%)] ">
+                <div className="w-full h-full bg-[#5078FF] text-white flex items-center justify-center text-[22px] font-bold rounded-tl-[16px] rounded-tr-[16px] [clip-path:polygon(0_0,100%_0,100%_100%,0_70%)]  ">
                   {service?.title}
                 </div>
               </div>
+              <div className="transform transition-transform duration-500 ease-out hover:scale-110">
                <img 
                   src={service?.image} 
                   alt={service?.title}
                   className=" bottom-[-18px] left-1/2 transform -translate-x-1/2 w-[100px] sm:w-[120px] md:w-[140px] lg:w-[166px] h-[100px] sm:h-[120px] md:h-[140px] lg:h-[150px] object-contain"
                 />
-
+</div>
               {/* Description */}
               <div className="flex-1 mb-6 sm:mb-8">
                 <p className="text-right font-[Almarai] font-normal text-[18px] leading-[1.46] tracking-[0.02em] text-[#331B3BA8] w-[250px] h-[84px] opacity-100">
@@ -153,19 +154,14 @@ const AdditionalServices = () => {
   </ul>
 ) : null}
 
+<a href="#Contact">
 
               <button
-                className="
-    block mx-auto
-    bg-[#2C7EF3] hover:bg-[#2563C3]
-    transition
-    text-white text-sm font-bold
-    py-3 w-50 my-8
-    rounded-full
-  "
+                className=" block mx-auto bg-[#2C7EF3] transition text-white text-sm font-bold py-3 w-50 my-8 rounded-full hover:scale-110 cursor-pointer"
               >
                 حجز استشارة مجانية الآن
-              </button>
+              </button></a>
+
             </div>
           ))}
         </div>

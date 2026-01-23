@@ -93,7 +93,8 @@ const Home = () => {
 >
   <div
     className="
-      bg-[#1F2425] 
+      bg-transparent
+    md:bg-[#1F2425]
       rounded-tl-[60px]
       w-[580px] h-[600px]
       flex flex-col justify-start
@@ -112,7 +113,7 @@ const Home = () => {
       <br />
       <span className="relative inline-block">
         مع ربح
-        <span className="absolute right-0 top-0 w-[180px] lg:w-[200px] border-t-[16px] lg:border-t-[20px] border-[#2C7EF3]"></span>
+        <span className="absolute right-0 top-0 w-[180px] lg:w-[200px] border-t-[10px] lg:border-t-[20px] border-[#2C7EF3]"></span>
       </span>
     </h1>
 
@@ -120,10 +121,13 @@ const Home = () => {
       نوفر لك جميع الخدمات المحاسبية عن بُعد، من إعداد التقارير المالية
       ومتابعة الضرائب وتحليل الأداء المالي وجميع الخدمات الأخرى.
     </p>
-
-    <button className="bg-[#2C7EF3] hover:bg-[#2563C3] transition px-7 py-3.5 rounded-full text-sm w-fit mt-16 lg:mt-10 ">
+<a href="#Contact">
+    <button className="bg-[#2C7EF3] transition px-7 py-3.5 rounded-full text-sm w-fit mt-16 lg:mt-10  transform
+    hover:scale-110 cursor-pointer">
       احجز استشارة مجانية الآن
     </button>
+</a>
+
   </div>
 </div>
 

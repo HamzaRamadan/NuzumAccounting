@@ -5,7 +5,20 @@ const WhoAre = () => {
       className="relative w-full pt-[90px] pb-[110px] overflow-hidden"
     >
       {/* الدائرة الخلفية */}
-      <div className="absolute top-[10px] left-[-180px] w-[100%] h-[400px] bg-[#5078FF14] rounded-full" />
+      <div 
+      // className="absolute top-[10px] left-[-180px] w-[100%] h-[400px] bg-[#f53905] rounded-full" />
+  className="
+    absolute
+    top-[60px] left-[-60px]
+    w-[110%] h-[160px]
+
+    bg-[#5078FF14]
+    rounded-full
+
+    md:top-[10px] md:left-[-180px]
+    md:w-[100%] md:h-[400px]
+  "
+/>
 
       <div className="relative mx-auto max-w-[1200px] px-6">
         {/* العنوان الرئيسي */}
@@ -24,7 +37,7 @@ const WhoAre = () => {
         </div>
 
         {/* الجزء الأول: رؤيتنا و خبرتنا */}
-        <div className="grid grid-cols-1 lg:grid-cols-[300px_700px] gap-[16px] justify-start">
+        <div className="grid grid-cols-1 -mt-20 md:mt-2 lg:grid-cols-[300px_700px] gap-[16px] justify-start">
           {/* رؤيتنا */}
           
           <div className="w-full h-[350px] bg-[#E9E9E9] rounded-[18px] px-[42px] flex flex-col justify-center">
@@ -38,7 +51,7 @@ const WhoAre = () => {
           </div>
 
           {/* خبرتنا */}
-          <div className="relative w-full h-[310px] rounded-[18px] overflow-hidden">
+          <div className="relative w-full h-[310px] rounded-[18px] overflow-hidden ">
             <img
               src="/Who1.jpg"
               className="w-full h-full object-cover"

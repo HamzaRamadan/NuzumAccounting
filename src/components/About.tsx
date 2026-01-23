@@ -123,17 +123,13 @@ const About = () => {
             الآن يمكنك الاستغناء عن توظيف فريق والاستعانة بخدمة محاسبية عن بُعد
             من ربح.
           </p>
+<a href="#Contact">
 
-          <button className="
-            mt-8
-            bg-[#2C7EF3] hover:bg-[#2563C3]
-            transition
-            text-white text-sm font-bold
-            px-8 py-4
-            rounded-full
-          ">
+          <button className=" mt-8 bg-[#2C7EF3]  transition text-white text-sm font-bold px-8 py-4 rounded-full hover:scale-110 cursor-pointer ">
             حجز استشارة مجانية الآن
           </button>
+          </a>
+
         </div>
       </div>
     </section>

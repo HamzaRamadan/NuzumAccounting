@@ -22,14 +22,14 @@ const Contact = () => {
   };
 
   return (
-    <section className="w-full py-12 sm:py-16 md:py-20 lg:py-24">
+    <section id="Contact" className="w-full py-12 sm:py-16 md:py-20 lg:py-24">
       <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row-reverse items-center gap-8 lg:gap-16">
           {/* Form Section */}
           <div className="w-full lg:w-1/2 order-1 lg:order-1">
             <form
               onSubmit={handleSubmit}
-              className="border border-[#8c94a34f] rounded-[50px] p-8 sm:p-10 md:p-12 lg:p-[50px] bg-white"
+              className="border border-[#8c94a34f] rounded-[50px] p-8 sm:p-10 md:p-12 lg:p-[30px] bg-white"
             >
               <div className="space-y-6 sm:space-y-8">
                 {/* Name Field */}
@@ -112,7 +112,7 @@ const Contact = () => {
                     }}
                   >
                     <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-1 px-1">
+                      {/* <div className="flex items-center gap-1 px-1">
                         <img
                           src="/images/img_ic_round_arrow_left.svg"
                           alt="Arrow"
@@ -123,7 +123,7 @@ const Contact = () => {
                           alt="Egypt Flag"
                           className="w-5 h-5 sm:w-6 sm:h-6"
                         />
-                      </div>
+                      </div> */}
                       <input
                         type="tel"
                         value={formData?.phone}
@@ -131,7 +131,7 @@ const Contact = () => {
                           handleInputChange("phone", e?.target?.value)
                         }
                         placeholder="+201257982565"
-                        className="flex-1 bg-transparent text-right text-[#8c94a3] text-base sm:text-lg md:text-xl outline-none"
+                        className="w-full  bg-transparent text-right border-2 py-2 px-5 rounded-2xl border-[#E9EAF0] text-[#8c94a3] text-base sm:text-lg md:text-xl outline-none"
                         style={{ fontFamily: "Almarai" }}
                         required
                       />
@@ -149,12 +149,7 @@ const Contact = () => {
                     <span className="text-[#f01008]">*</span>
                   </label>
                   <div
-                    className="w-full rounded-lg p-4 sm:p-6 md:p-[56px]"
-                    style={{
-                      backgroundImage: "url('/images/img_input_field.svg')",
-                      backgroundSize: "cover",
-                      backgroundPosition: "center",
-                    }}
+                   className="w-full"
                   >
                     <textarea
                       value={formData?.consultation}
@@ -163,12 +158,21 @@ const Contact = () => {
                       }
                       placeholder="اضف تفاصيل رسالتك هنا...."
                       rows={4}
-                      className="w-full bg-transparent text-right text-[#8c94a3] text-base sm:text-lg md:text-xl outline-none resize-none"
+                      className="w-full  bg-transparent text-right border-2 py-2 px-5 rounded-2xl border-[#E9EAF0] text-[#8c94a3] text-base sm:text-lg md:text-xl outline-none"
                       style={{ fontFamily: "Almarai" }}
                       required
                     />
                   </div>
                 </div>
+          <button className="
+            bg-[#2C7EF3] hover:bg-[#2563C3]
+            transition
+            text-white text-sm font-bold
+            px-20 py-4
+            rounded-full
+          ">
+احجز استشارتك المجانية الان
+          </button>
 
                 {/* Disclaimer */}
                 <p

@@ -60,7 +60,7 @@ const Partners = () => {
   "
 >
   {partners?.map((partner) => (
-    <div key={partner?.id}>
+    <div key={partner?.id} className="transform transition-transform duration-500 ease-out hover:scale-110">
       <img
         src={partner?.image}
         alt={partner?.alt}
