@@ -1,5 +1,4 @@
 /* eslint-disable no-irregular-whitespace */
-import React from "react";
 
 const TestimonialsSection = () => {
   return (

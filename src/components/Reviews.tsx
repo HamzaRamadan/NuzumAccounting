@@ -190,7 +190,7 @@
 
 
 
-import React, { useRef } from 'react';
+import  { useRef } from 'react';
 import RatingBar from './ui/RatingBar';
 
 const Reviews = () => {
