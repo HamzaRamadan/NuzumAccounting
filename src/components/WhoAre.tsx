@@ -23,13 +23,18 @@ const WhoAre = () => {
       <div className="relative mx-auto max-w-[1200px] px-6">
         {/* العنوان الرئيسي */}
         <div className="flex flex-col items-center mb-[70px] relative">
-          <div className="relative inline-block">
-            <h1 className="font-almarai font-extrabold text-[48px] leading-[106%] tracking-[-1%] text-center w-[184px] h-[51px] opacity-100">
-              من نحن؟
-            </h1>
+      <div className="relative inline-block">
+  <h1 className="font-almarai font-extrabold text-[48px] leading-[106%] tracking-[-1%] text-center w-[184px] h-[51px] opacity-100">
+    
+    <span className="relative inline-block">
+      من
+      <span className="absolute left-0 -bottom-1 w-full h-[6px] sm:h-[7px] bg-[#5078FF]" />
+    </span>
 
-            <div className="absolute -top-[5px] left-1/2 -translate-x-1/2 w-[220px] h-[60px] border-2 border-[#3B82F6] rounded-full" />
-          </div>
+    {" "}نحن ؟
+  </h1>
+</div>
+
 
           <p className="mt-6 font-almarai font-normal text-[18px] text-[#331B3BA8] leading-[146%] tracking-[2%] text-center max-w-[662px] opacity-100">
             تعرف على رسالتنا، رؤيتنا، والقيم التي نعمل بها

@@ -1,6 +1,7 @@
 import './App.css'
 import About from './components/About'
 import AdditionalServices from './components/AdditionalServices'
+import { Analytics } from './components/Analytics'
 import Contact from './components/Contact'
 import FloatingFeatures from './components/FloatingFeatures'
 import Footer from './components/Footer'
@@ -8,7 +9,6 @@ import Home from './components/Home'
 import Partners from './components/Partners'
 import PricingSection from './components/Price'
 import Reviews from './components/Reviews'
-import Testimonials from './components/Testimonials'
 import WhoAre from './components/WhoAre'
 import WhyChoose from './components/WhyChoose'
 
@@ -16,6 +16,11 @@ function App() {
 
   return (
     <>
+     <Analytics
+        gtmId="GTM-125455"
+        fbPixelId=""
+        clarityId=""
+      />
      <Home />
      <FloatingFeatures/>
      <About />
@@ -24,11 +29,7 @@ function App() {
      <AdditionalServices />
      <Partners />
      <WhyChoose />
-     <Testimonials />
-     <div className="mt-0 lg:-mt-60 ">
-
      <Reviews />
-     </div>
      <Contact />
      <Footer />
     </>
