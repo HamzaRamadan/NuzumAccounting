@@ -12,7 +12,10 @@ const Reviews2 = () => {
   const [loading, setLoading] = useState(false);
 
   // Toast state
-  const [toast, setToast] = useState<{ message: string; type: "success" | "error" } | null>(null);
+  const [toast, setToast] = useState<{
+    message: string;
+    type: "success" | "error";
+  } | null>(null);
 
   // Hide toast after 3 seconds
   useEffect(() => {
@@ -36,7 +39,7 @@ const Reviews2 = () => {
         "service_q53f7di",
         "template_b969o32",
         { user_name: name, rating, message },
-        "xfBdJV0Wg9Lj2jxwQ"
+        "xfBdJV0Wg9Lj2jxwQ",
       );
 
       setToast({ message: "تم إرسال التقييم بنجاح ✅", type: "success" });
@@ -46,7 +49,10 @@ const Reviews2 = () => {
     } catch (error: any) {
       console.log("STATUS:", error.status);
       console.log("TEXT:", error.text);
-      setToast({ message: error.text || "حدث خطأ أثناء الإرسال ❌", type: "error" });
+      setToast({
+        message: error.text || "حدث خطأ أثناء الإرسال ❌",
+        type: "error",
+      });
     } finally {
       setLoading(false);
     }
@@ -71,7 +77,10 @@ const Reviews2 = () => {
           className="max-w-[800px] mx-auto flex flex-col items-start text-right space-y-4 sm:space-y-6"
         >
           <div>
-            <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium text-black mb-2 sm:mb-3" style={{ fontFamily: "Cairo" }}>
+            <h3
+              className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium text-black mb-2 sm:mb-3"
+              style={{ fontFamily: "Cairo" }}
+            >
               تقييمك العام
             </h3>
             <RatingBar

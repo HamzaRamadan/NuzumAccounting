@@ -1,5 +1,5 @@
 import  { useRef } from 'react';
-import Reviews2 from './Reviews2';
+import FormReviews from './FormReviews';
 
 const Reviews = () => {
   const reviews = [
@@ -134,7 +134,7 @@ const Reviews = () => {
         </div>
 
         {/* Review Form */}
-     <Reviews2 />
+     <FormReviews />
         
 
         {/* Guarantee Section */}
