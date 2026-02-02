@@ -4,6 +4,7 @@ import {
   FaLinkedinIn,
   FaTiktok,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -15,11 +16,13 @@ const Footer = () => {
         <div className="flex flex-col items-center justify-center gap-4 md:gap-6 lg:gap-8">
           {/* Logo */}
           <div className="mb-4 md:mb-6 lg:mb-7">
-            <img
-              src="/EradaLogo-removebg-preview.png"
-              alt="Company Logo"
-              className="w-[200px] h-[200px] sm:w-[200px] sm:h-[200px] md:w-[200px] md:h-[200px] object-contain"
-            />
+            <Link to="/">
+              <img
+                src="/EradaLogo-removebg-preview.png"
+                alt="Company Logo"
+                className="w-[200px] h-[200px] sm:w-[200px] sm:h-[200px] md:w-[200px] md:h-[200px] object-contain"
+              />
+            </Link>
           </div>
 
           <div className="flex flex-row-reverse items-center justify-center gap-4 -mt-10">

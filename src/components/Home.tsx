@@ -1,4 +1,5 @@
 import { FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
         "
       >
         {/* Logo */}
+        <Link to="/">
         <img
           src="/EradaLogo-removebg-preview.png"
           alt="Erada Logo"
@@ -27,8 +29,9 @@ const Home = () => {
             w-52 h-52 object-contain
             lg:w-52 lg:h-52
             lg:translate-x-[40px]
-          "
-        />
+            "
+            />
+            </Link>
 
         {/* Buttons */}
         <div

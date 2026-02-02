@@ -1,3 +1,4 @@
+import { FaWhatsapp } from 'react-icons/fa'
 import './App.css'
 import About from './components/About'
 import AdditionalServices from './components/AdditionalServices'
@@ -32,6 +33,27 @@ function App() {
      <Reviews />
      <Contact />
      <Footer />
+
+
+     <a
+  href="https://wa.me/201090032086"
+  target="_blank"
+  aria-label="WhatsApp"
+  className="
+    fixed bottom-6 right-6 z-50
+    w-16 h-16
+    flex items-center justify-center
+    rounded-full
+    bg-[#25D366]
+    text-white
+    shadow-lg
+    hover:scale-110
+    transition
+  "
+>
+  <FaWhatsapp className="w-8 h-8" />
+</a>
+
     </>
   )
 }
