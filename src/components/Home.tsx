@@ -15,18 +15,18 @@ const Home = () => {
         dir="ltr"
         className="
           relative z-10
-          flex flex-col items-center gap-6 mt-2
-          lg:flex-row lg:items-center lg:gap-[170px]
+          flex flex-col items-center gap-6 -mt-4
+          lg:flex-row lg:items-center lg:gap-[100px]
         "
       >
         {/* Logo */}
         <img
-          src="/logo.png"
-          alt="Accounting Logo"
+          src="/EradaLogo-removebg-preview.png"
+          alt="Erada Logo"
           className="
-            w-24 h-24 object-contain
-            lg:w-32 lg:h-32
-            lg:translate-x-[80px]
+            w-52 h-52 object-contain
+            lg:w-52 lg:h-52
+            lg:translate-x-[40px]
           "
         />
 
@@ -35,6 +35,7 @@ const Home = () => {
           className="
             flex items-center gap-1
             lg:-mt-3
+            -mt-8     
           "
         >
           {/* WhatsApp Button */}
@@ -123,7 +124,7 @@ const Home = () => {
       ومتابعة الضرائب وتحليل الأداء المالي وجميع الخدمات الأخرى.
     </p>
 <a href="#Contact">
-    <button className="bg-[#2C7EF3] transition px-7 py-3.5 rounded-full text-sm w-fit mt-16 lg:mt-10  transform
+    <button className="bg-[#2C7EF3] transition px-7 py-3.5 rounded-full text-sm w-fit mt-10 lg:mt-10  transform
     hover:scale-110 cursor-pointer">
       احجز استشارة مجانية الآن
     </button>
