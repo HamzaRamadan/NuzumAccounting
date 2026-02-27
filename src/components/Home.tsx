@@ -117,7 +117,7 @@ const Home = () => {
       ريح بالك من إدارة حسابات شركتك
       <br />
       <span className="relative inline-block">
-        مع اراده للمحاسبه والضرايب
+        مع إرادة للمحاسبة والضرائب  
         <span className="absolute right-0 top-0 w-[200px] lg:w-[350px] border-t-[10px] lg:border-t-[10px] border-[#2C7EF3]"></span>
       </span>
     </h1>
