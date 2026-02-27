@@ -36,10 +36,10 @@ const Reviews2 = () => {
 
     try {
       await emailjs.send(
-        "service_q53f7di",
-        "template_b969o32",
+        "service_th1yq0e",
+        "template_dd4ecfd",
         { user_name: name, rating, message },
-        "xfBdJV0Wg9Lj2jxwQ",
+        "iODxejsnPdPfDdqkz",
       );
 
       setToast({ message: "تم إرسال التقييم بنجاح ✅", type: "success" });

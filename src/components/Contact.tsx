@@ -47,15 +47,15 @@ const Contact = () => {
 
     try {
       await emailjs.send(
-        "service_q53f7di",
-        "template_mtbjly3",
+        "service_th1yq0e",
+        "template_qtbauua",
         {
           name,
           email,
           phone,
           consultation,
         },
-        "xfBdJV0Wg9Lj2jxwQ"
+        "iODxejsnPdPfDdqkz"
       );
 
       setToast({
