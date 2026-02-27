@@ -43,7 +43,7 @@ const Home = () => {
         >
           {/* WhatsApp Button */}
           <a
-            href="https://wa.me/201090032086"
+            href="https://wa.me/+966564280855"
             target="_blank"
             className="
               flex items-center justify-center gap-2
@@ -63,7 +63,7 @@ const Home = () => {
 
           {/* Phone Button */}
           <a
-            href="tel:+201234567890"
+            href="tel:+966564280855"
             className="
               flex items-center justify-center gap-2
               px-4 py-4
@@ -77,7 +77,7 @@ const Home = () => {
             "
           >
             <FaPhoneAlt className="w-4 h-4 lg:w-5 lg:h-5" />
-            +201234567890
+            +966564280855
           </a>
         </div>
       </div>
@@ -117,8 +117,8 @@ const Home = () => {
       ريح بالك من إدارة حسابات شركتك
       <br />
       <span className="relative inline-block">
-        مع ربح
-        <span className="absolute right-0 top-0 w-[180px] lg:w-[200px] border-t-[10px] lg:border-t-[20px] border-[#2C7EF3]"></span>
+        مع اراده للمحاسبه والضرايب
+        <span className="absolute right-0 top-0 w-[200px] lg:w-[350px] border-t-[10px] lg:border-t-[10px] border-[#2C7EF3]"></span>
       </span>
     </h1>
 

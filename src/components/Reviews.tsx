@@ -1,4 +1,4 @@
-import  { useRef } from 'react';
+// import  { useRef } from 'react';
 import FormReviews from './FormReviews';
 
 const Reviews = () => {
@@ -8,40 +8,26 @@ const Reviews = () => {
       author: "بايجون",
       time: "منذ يومين",
       rating: 5,
-      content: "الحمدللة كنت ابحث عن مكتب يخلص لي قوائم مالية للاعلان عن افلاس شركة والحمدللة رتب لي الامور مع المحاسب القانوني وتمت باسرع وافضل وقت",
+      content: `الحمدلله كنت ابحث عن مكتب يشيل عني تعب الحسابات والضريبة 
+مرة كويس بالتوفيق باذن الله`,
       avatar: "/images/img_19399522241579780463.svg"
     },
-    {
-      id: 2,
-      author: "بايجون",
-      time: "منذ يومين",
-      rating: 5,
-      content: "الحمدللة كنت ابحث عن مكتب يخلص لي قوائم مالية للاعلان عن افلاس شركة والحمدللة رتب لي الامور مع المحاسب القانوني وتمت باسرع وافضل وقت",
-      avatar: "/images/img_19399522241579780463.svg"
-    },
-    {
-      id: 3,
-      author: "بايجون",
-      time: "منذ يومين",
-      rating: 5,
-      content: "الحمدللة كنت ابحث عن مكتب يخلص لي قوائم مالية للاعلان عن افلاس شركة والحمدللة رتب لي الامور مع المحاسب القانوني وتمت باسرع وافضل وقت",
-      avatar: "/images/img_19399522241579780463.svg"
-    }
+    
   ];
 
-  const carouselRef = useRef<HTMLDivElement>(null); // ✅ النوع محدد
+  // const carouselRef = useRef<HTMLDivElement>(null); // ✅ النوع محدد
 
-  const scrollLeft = () => {
-    if (carouselRef.current) {
-      carouselRef.current.scrollBy({ left: -300, behavior: 'smooth' });
-    }
-  };
+  // const scrollLeft = () => {
+  //   if (carouselRef.current) {
+  //     carouselRef.current.scrollBy({ left: -300, behavior: 'smooth' });
+  //   }
+  // };
 
-  const scrollRight = () => {
-    if (carouselRef.current) {
-      carouselRef.current.scrollBy({ left: 300, behavior: 'smooth' });
-    }
-  };
+  // const scrollRight = () => {
+  //   if (carouselRef.current) {
+  //     carouselRef.current.scrollBy({ left: 300, behavior: 'smooth' });
+  //   }
+  // };
 
   return (
     <section className="w-full pt-12 sm:pt-16 md:pt-20 lg:pt-24 pb-12 sm:pb-16 md:pb-20">
@@ -62,8 +48,8 @@ const Reviews = () => {
         {/* Reviews Carousel */}
         <div className="relative mb-12 sm:mb-16 md:mb-20">
           <div 
-            ref={carouselRef}
-            className="flex gap-4 sm:gap-6 md:gap-8 lg:gap-[68px] overflow-x-auto pb-4 scrollbar-hide"
+            // ref={carouselRef}
+            className="flex justify-center gap-4 sm:gap-6 md:gap-8 lg:gap-[68px] overflow-x-auto pb-4 scrollbar-hide"
             style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
           >
             {reviews?.map((review) => (
@@ -116,8 +102,7 @@ const Reviews = () => {
             ))}
           </div>
 
-          {/* Carousel Arrows */}
-          <div className="flex justify-center gap-6 mt-4">
+          {/* <div className="flex justify-center gap-6 mt-4">
             <button
               onClick={scrollLeft}
               className="w-10 h-10 flex items-center justify-center rounded-full bg-[#5078FF] text-white hover:bg-blue-600"
@@ -130,7 +115,7 @@ const Reviews = () => {
             >
               &#8594;
             </button>
-          </div>
+          </div> */}
         </div>
 
         {/* Review Form */}

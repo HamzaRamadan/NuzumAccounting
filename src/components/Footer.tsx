@@ -1,5 +1,4 @@
 import {
-  FaFacebookF,
   FaInstagram,
   FaLinkedinIn,
   FaTiktok,
@@ -26,20 +25,7 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-row-reverse items-center justify-center gap-4 -mt-10">
-            {/* Facebook */}
-            <a
-              href="https://web.facebook.com/profile.php?id=61586007011479&sk=grid"
-              target="_blank"
-              className="
-      w-10 h-10
-      flex items-center justify-center
-      rounded-full
-      bg-[#1877F2] text-white
-      hover:scale-110 transition
-    "
-            >
-              <FaFacebookF className="w-5 h-5" />
-            </a>
+          
 
             {/* TikTok */}
             <a
