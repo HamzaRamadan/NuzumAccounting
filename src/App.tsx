@@ -30,7 +30,7 @@ function App() {
       <Footer />
 
       <a
-        href="https://wa.me/+966564280855"
+        href="https://wa.me/+966577610451"
         target="_blank"
         aria-label="WhatsApp"
         className="
